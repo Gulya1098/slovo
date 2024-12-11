@@ -1,7 +1,7 @@
 my_dict = {'Misha': 1993, 'Vanya': 2003, 'Sema': 2018}
 print(my_dict)
 (my_dict['Misha'])
-print(my_dict.get('Антон'))
+print(my_dict.get('Антон'), 'нет такого ключа')
 print(my_dict)
 my_dict.update({'Katya': 1999, 'Tanya': 2007})
 print(my_dict)
